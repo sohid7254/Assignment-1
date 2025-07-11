@@ -1,0 +1,71 @@
+
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Raleway", sans-serif; 
+    background-color: white; 
+}
+/* Header-section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 34px;
+}
+.dark2{
+    color: black;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav li a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+
+}
+/* Banner section */
+.banner{
+    text-align: center;
+    padding: 100px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-title{
+    font-size: 4em; 
+    margin-bottom: 30px;
+    color:#252432;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
