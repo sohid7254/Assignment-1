@@ -115,13 +115,13 @@ nav li a{
    padding: 100px;
    border-radius: 24px;
    border-color: none;
-   padding: 109px 150px 109px 150px;
+   
     
 }
 .productive-users-section .container{
     display: flex;
     justify-content: space-evenly;
-    gap: 158px;
+    
 }
 .productive-users-section .state-section h3{
     font-size: 38px;
@@ -136,6 +136,69 @@ nav li a{
 
 }
 .stat-itme .raw{
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+    color: #ccc;
+}
+/* card section */
+.section-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+}
+.reviews-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.review-title {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.reviews-section{
+    margin: 50px 150px;
+    
+}
+.review-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.review-text{
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+.reviewer-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+.reviewer-name{
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+}
+.review-date {
+    font-size: 0.9em;
+    color: #777;
+    margin: 0;
 }
