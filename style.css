@@ -8,13 +8,13 @@
     "wdth" 100;
 }
 * {
-    
+    margin-top: auto;
     padding: 0;
     box-sizing: border-box;
 }
 body {
     font-family: "Raleway", sans-serif; 
-    background-color: white; 
+    background-color: rgb(244, 244, 244); 
 }
 /* Header-section */
 .header-section{
@@ -25,6 +25,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px;
+
 
 }
 nav ul{
@@ -105,4 +106,36 @@ nav li a{
     height: auto;
     border-radius: 48px;
     
+}
+/* Productive Users Section */
+.productive-users-section {
+   background-color: rgba(51, 45, 236, 0.1);
+   text-align: center;
+   margin: 50px 150px;
+   padding: 100px;
+   border-radius: 24px;
+   border-color: none;
+   padding: 109px 150px 109px 150px;
+    
+}
+.productive-users-section .container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 158px;
+}
+.productive-users-section .state-section h3{
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+}
+.stat-item .number{
+    font-size: 88px;
+    font-weight: 600;
+    color: #4E47FF;
+    display: block;
+
+}
+.stat-itme .raw{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
