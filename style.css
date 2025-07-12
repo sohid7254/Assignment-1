@@ -2,20 +2,21 @@
 
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Raleway", sans-serif; 
+    background-color: #D6DDED;
+    font-optical-sizing: auto;
   font-style: normal;
+  font-weight: 400;
   font-variation-settings:
     "wdth" 100;
 }
+
 * {
     margin-top: auto;
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: "Raleway", sans-serif; 
-    background-color: rgb(244, 244, 244); 
-}
+
 /* Header-section */
 .header-section{
     background-image: url("../Assets/Hero-bg.png");
@@ -77,15 +78,18 @@ nav li a{
 /* Action Secgtion */
 .action-section{
     padding: 109px 150px 109px 150px;
+    align-items: center;
 }
 
-.action-section .container{
+.container{
     display: flex;
     align-items: center;
-    gap: 220px;
+    gap: 50px;
+    justify-content: center;
 }
 .action-section .content-left{
     flex: 1;
+    padding: 62.5px 220px 62.5px 0px;
 }
 .action-section .content-left h2{
     font-size: 42px;
@@ -99,12 +103,19 @@ nav li a{
 }
 .action-section .content-right{
     flex: 1;
-    text-align: center;   
+    text-align: center;
+    margin-left: 150px;   
 }
 .action-section .content-right img{
-    max-width: 100%;
+    max-width: 1140px;
     height: auto;
     border-radius: 48px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
     
 }
 /* Productive Users Section */
@@ -140,6 +151,23 @@ nav li a{
     color: #ccc;
 }
 /* card section */
+.review-section{
+    width: 1140px;
+    height: 350px;
+}
+.pre h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+.review-container{
+    display: flex;
+    
+}
+/* review section */
+
 .section-title{
     text-align: center;
     font-size: 42px;
@@ -202,3 +230,38 @@ nav li a{
     color: #777;
     margin: 0;
 }
+/* contact-section */
+.contact{
+    padding: 86px 150px 20px 150px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.contuct-column{
+    width: 50%;
+}
+.contact input[type="text"],   .contact input[type="email"], .contact textarea{
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+  
+}
+.button{
+    padding:  20px 210px;
+}
+.contact-column{
+    padding: 
+}
+.contact-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+
