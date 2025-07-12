@@ -1,7 +1,7 @@
 
 
 .open-sans-font {
-  font-family: "Open Sans", sans-serif;
+  
   font-family: "Raleway", sans-serif; 
     background-color: #D6DDED;
     font-optical-sizing: auto;
@@ -60,6 +60,9 @@ nav li a{
     border: none;
 
 }
+.btn-primary:hover{
+    background-color: aquamarine;
+}
 /* Banner section */
 .banner{
     text-align: center;
@@ -88,7 +91,7 @@ nav li a{
     justify-content: center;
 }
 .action-section .content-left{
-    flex: 1;
+    
     padding: 62.5px 220px 62.5px 0px;
 }
 .action-section .content-left h2{
@@ -102,7 +105,7 @@ nav li a{
     color: #252432;
 }
 .action-section .content-right{
-    flex: 1;
+    
     text-align: center;
     margin-left: 150px;   
 }
@@ -140,6 +143,7 @@ nav li a{
     color: black;
 }
 .stat-item .number{
+    font-family: ;
     font-size: 88px;
     font-weight: 600;
     color: #4E47FF;
@@ -264,4 +268,48 @@ nav li a{
     font-size: 97px;
     font-weight: bold;
 }
+/* footer-section */
+.nun{
+    align-items: center;
+    justify-content: center;
+}
+.nun{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #FFFFFF;
+}
+.footer-section{
+    text-align: center;
+    padding: 104px 455px 105px 454px;
+    
+}
+.logo{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 8px;
 
+}
+.puri{
+    font-size: 16px;
+    color: #8987A1;
+    line-height: 1.5;
+    max-width: 531px;
+    margin: 0 auto 20px auto;
+
+}
+.mini ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.mini ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
